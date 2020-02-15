@@ -1,0 +1,44 @@
+% @author Shuning Zhang
+% @date 2019-02-15
+\documentclass[a4paper, 11pt]{ctexart}
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage[bottom=2cm, left=2.5cm, right=2.5cm, top=2cm]{geometry}
+\usepackage{multicol}
+\begin{document}
+\begin{enumerate}
+    \item % 1
+        $\overrightarrow{AB} = \dfrac12(\boldsymbol{a} - \boldsymbol{b})$,
+        $\overrightarrow{BC} = \dfrac12(\boldsymbol{a} + \boldsymbol{b})$,
+        $\overrightarrow{CD} = \dfrac12(\boldsymbol{b} - \boldsymbol{a})$,
+        $\overrightarrow{DA} = -\dfrac12(\boldsymbol{a} + \boldsymbol{b})$.
+    \item % 2
+    
+    \item % 3
+        {\heiti 证明}\quad \begin{align*}
+            \frac12\overrightarrow{AB} = \overrightarrow{AM}
+            &\Leftrightarrow
+            \frac12(\overrightarrow{OB} - \overrightarrow{OA}) = \overrightarrow{OM} - \overrightarrow{OA} \\
+            &\Leftrightarrow
+            \overrightarrow{OM} = \frac12(\overrightarrow{OA} + \overrightarrow{OB}).
+        \end{align*}
+    \item % 4
+        {\heiti 证明}\quad \begin{align*}
+            \overrightarrow{AM} = \frac12\overrightarrow{AC}
+            &\Leftrightarrow
+            \overrightarrow{OM} - \overrightarrow{OA} = \frac12(\overrightarrow{OC} - \overrightarrow{OA}) \\
+            &\Leftrightarrow
+            \overrightarrow{OM} = \frac12(\overrightarrow{OA} + \overrightarrow{OC}), \\
+            \overrightarrow{BM} = \frac12\overrightarrow{BD}
+            &\Leftrightarrow
+            \overrightarrow{OM} - \overrightarrow{OB} = \frac12(\overrightarrow{OD} - \overrightarrow{OB}) \\
+            &\Leftrightarrow
+            \overrightarrow{OM} = \frac12(\overrightarrow{OB} + \overrightarrow{OD}).
+        \end{align*}
+        因此 $\overrightarrow{OM} = \dfrac14(\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} + \overrightarrow{OD})$.
+    \item % 5
+    \item % 6
+    \item % 7
+\end{enumerate}
+\end{document}
